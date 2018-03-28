@@ -9,7 +9,7 @@ $frequencia_aluno = 80;
 
 $reprovado_por_faltas = $frequencia_aluno < $frequencia ? true : false;
 
-if (!$reprovado_por_faltas) { // O ! => Negando a condição || Se for false, entra na condição
+if (!$reprovado_por_faltas) { // O ! => Negando a condiï¿½ï¿½o || Se for false, entra na condiï¿½ï¿½o
 
     if ($media_aluno < $media_recuperacao) {
         echo "Reprovado!";
@@ -22,3 +22,4 @@ if (!$reprovado_por_faltas) { // O ! => Negando a condição || Se for false, entr
 } else {
     echo "Reprovado por faltas!";
 }
+// MudanÃ§a para UTF 8 - Eclipse
