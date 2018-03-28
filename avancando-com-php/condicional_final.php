@@ -9,7 +9,7 @@ $frequencia_aluno = 80;
 
 $reprovado_por_faltas = $frequencia_aluno < $frequencia ? true : false;
 
-if (!$reprovado_por_faltas) {
+if (!$reprovado_por_faltas) { // O ! => Negando a condição || Se for false, entra na condição
 
     if ($media_aluno < $media_recuperacao) {
         echo "Reprovado!";
